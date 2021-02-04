@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/heading_textView"
+        android:layout_width="235dp"
+        android:layout_height="56dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Face Detection"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="243dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/final_image_view"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/camera_logo" />
+
+    <ImageView
+        android:id="@+id/final_image_view"
+        android:layout_width="312dp"
+        android:layout_height="269dp"
+        android:layout_below="@id/heading_textView"
+        android:layout_centerHorizontal="true" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/login_button_card_view"
+        android:layout_width="195dp"
+        android:layout_height="52dp"
+        android:layout_below="@id/image_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="150dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:onClick="upload"
+        app:cardBackgroundColor="#43A047"
+        app:cardCornerRadius="22.5dp"
+        app:cardElevation="0dp">
+
+        <RelativeLayout
+            android:id="@+id/login_button"
+            android:layout_width="186dp"
+            android:layout_height="49dp"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="upload">
+
+            <TextView
+                android:id="@+id/login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:clickable="true"
+                android:ellipsize="end"
+                android:lines="1"
+                android:onClick="upload"
+                android:text="Upload File"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
