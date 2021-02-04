@@ -7,8 +7,7 @@
 ## Screens
 
 ![Image1](1.png)
-![Image2](2.png)
-![Image3](3.png)
+
 
 ### How to Run 
 
