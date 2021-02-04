@@ -10,7 +10,7 @@
 ![Image2](2.png)
 ![Image3](3.png)
 
-##How to Run 
+### How to Run 
 
 Simply clone the project onto you pc and then once the project is open 
 Change the <IP ADDRESS> to your <PC IP ADDRESS>
