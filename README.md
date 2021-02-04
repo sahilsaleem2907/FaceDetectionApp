@@ -1,5 +1,5 @@
 # FaceDetectionApp
--  Android app that can detect faces in an image using OpenCv
+-  Android app that can detect faces in an image using OpenCV
 -  PyhtonScript tested and works on pycharm 
 -  RetrofitAPI is used for backend in the app
 -  FlaskAPI is used to run the server
