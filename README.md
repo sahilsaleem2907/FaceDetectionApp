@@ -12,7 +12,7 @@
 
 ### How to Run 
 
-Simply clone the project onto you pc and then once the project is open 
-Change the <IP ADDRESS> to your <PC IP ADDRESS>
+- Simply clone the project onto your pc and then once the project is open 
+- Change the <IP ADDRESS> to your <PC IP ADDRESS>
 
-Then if the app is run it will work.(Build on Android 10)
+- Then if the app is run it will work.(Build on Android 10)
